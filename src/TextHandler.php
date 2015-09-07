@@ -1,7 +1,7 @@
 <?php
 require_once(__DIR__ . "/../lib/emoji/emoji.php");
 
-class TextHandler {
+class NInsta_TextHandler {
     private $urlHandler;
     private $tagsRegex = '~#(\w+)~iu';
     //private $mentionsRegex = '~@([a-zA-Z\.\_\-0-9]([^.]*)+)~iu';

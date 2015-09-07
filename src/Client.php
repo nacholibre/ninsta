@@ -9,6 +9,7 @@ class NInsta_Client {
         'defaults' => [
             'query' => $clientDefaultParams]
         ]);
+
     }
 
     private function _queryAPI($url, $options = [], $type='get') {

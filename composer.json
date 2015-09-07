@@ -11,7 +11,8 @@
     },
     "autoload": {
         "classmap": [
-            "src/Client.php"
+            "src/Client.php",
+            "src/UrlHandler.php"
         ]
     },
     "require": {}

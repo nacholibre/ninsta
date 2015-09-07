@@ -1,0 +1,15 @@
+{
+    "name": "nacho/nInsta",
+    "authors": [
+        {
+            "name": "Yoan Arnaudov",
+            "email": "jonidev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "NInsta_": "src/"
+        }
+    },
+    "require": {}
+}

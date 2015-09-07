@@ -9,6 +9,7 @@
     "require": {
         "php": ">=5.2.7"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "NInsta_": "src/"

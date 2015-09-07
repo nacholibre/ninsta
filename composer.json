@@ -6,6 +6,9 @@
             "email": "jonidev@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=5.2.7"
+    },
     "autoload": {
         "psr-0": {
             "NInsta_": "src/"

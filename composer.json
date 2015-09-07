@@ -10,9 +10,9 @@
         "php": ">=5.2.7"
     },
     "autoload": {
-        "psr-0": {
-            "": "src/"
-        }
+        "classmap": [
+            "src/Client.php"
+        ]
     },
     "require": {}
 }

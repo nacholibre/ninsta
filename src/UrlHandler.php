@@ -24,7 +24,7 @@ class NInsta_UrlHandler {
     }
 
     public function setUsernamePrefix($prefix) {
-        $this->tagPrefix = $prefix;
+        $this->usernamePrefix = $prefix;
     }
 
     public function setMediaEncoder($mediaEncoder) {

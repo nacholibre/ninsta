@@ -10,6 +10,7 @@ class NInsta_Client {
             'query' => $clientDefaultParams]
         ]);
 
+        $this->_restClient->setUserAgent('Host: ' . $_SERVER['HTTP_HOST']);
     }
 
     private function _queryAPI($url, $options = [], $type='get') {

@@ -7,10 +7,11 @@ class NInsta_Client {
         $this->_restClient = new GuzzleHttp\Client([
         'base_url' => $apiURL,
         'defaults' => [
-            'query' => $clientDefaultParams]
+            'query' => $clientDefaultParams],
+            'headers' => [
+                'User-Agent' => 'host:'.$_SERVER['HTTP_HOST']
+            ],
         ]);
-
-        $this->_restClient->setUserAgent('Host: ' . $_SERVER['HTTP_HOST']);
     }
 
     private function _queryAPI($url, $options = [], $type='get') {

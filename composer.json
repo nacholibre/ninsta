@@ -7,12 +7,12 @@
         }
     ],
     "require": {
-        "php": ">=5.2.7"
+        "php": ">=5.2.7",
+        "guzzlehttp/guzzle": "^6.0"
     },
     "autoload": {
         "classmap": [
             "src"
         ]
-    },
-    "require": {}
+    }
 }
